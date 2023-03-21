@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(52, 43, 45);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logoContainer{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+}
+.endBox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.appName{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+/*test*/
+.profileIcon{
+    margin-right: 20px;
+}
+.hamburgerMenu {
+    display: none;
+  }
+
+  @media only screen and (max-width: 770px) {
+    .hamburgerMenu {
+        display: flex;
+      }
+      
+  }
