@@ -147,7 +147,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="number"
                       id="barcode"
-                      label="Enter barcode"
+                      label="Enter Barcode"
                       variant="outlined"
                       {...formik.getFieldProps('barcode')}
                     />
@@ -173,7 +173,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="string"
                       id="location"
-                      label="Enter location data"
+                      label="Enter Location Data"
                       variant="outlined"
                       {...formik.getFieldProps('location')}
                     />
@@ -186,7 +186,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="string"
                       id="placeOfOrigin"
-                      label="Enter place Of Origin"
+                      label="Enter place of Origin"
                       variant="outlined"
                       {...formik.getFieldProps('placeOfOrigin')}
                     />
@@ -214,7 +214,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="number"
                       id="unitPrice"
-                      label="Enter unitPrice"
+                      label="Enter Unit Price"
                       variant="outlined"
                       {...formik.getFieldProps('unitPrice')}
                     />
@@ -227,7 +227,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="number"
                       id="unitQuantity"
-                      label="Enter unitQuantity"
+                      label="Enter Unit Quantity"
                       variant="outlined"
                       {...formik.getFieldProps('unitQuantity')}
                     />
@@ -244,7 +244,7 @@ const AddProduct = (props) => {
                       <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        label="Select unitQuantityType"
+                        label="Select Unit Quantity Type"
                         {...formik.getFieldProps('unitQuantityType')}>
                         <MenuItem className={style.menuItem} value="kg" >
                           Kilogram
@@ -275,7 +275,7 @@ const AddProduct = (props) => {
                       fullWidth
                       type="text"
                       id="veriety"
-                      label="Enter veriety"
+                      label="Enter Veriety"
                       variant="outlined"
                       {...formik.getFieldProps('veriety')}
                     />
@@ -285,7 +285,7 @@ const AddProduct = (props) => {
                   </div>
                   <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DatePicker
-                      label="productionDate"
+                      label="Production Date"
                       value={productionDate}
                       onChange={(newValue) => {
                         setProductionDate(newValue);
@@ -295,7 +295,7 @@ const AddProduct = (props) => {
 
                   <LocalizationProvider dateAdapter={AdapterDayjs} fullWidth>
                     <DatePicker
-                      label="expirationDate"
+                      label="Expiration Date"
                       value={expirationDate}
                       onChange={(newValue) => {
                         setExpirationDate(newValue);
