@@ -75,8 +75,8 @@ const GetProduct = (props) => {
             <TextContainer head="Barcode" body={data.barcode} />
             <TextContainer head="Batch Quantity" body={data.batchQuantity} />
             <TextContainer head="Category" body={data.category} />
-            <TextContainer head="UnitPrice" body={data.unitPrice} />
-            <TextContainer head="UnitQuantity" body={data.unitQuantity} />
+            <TextContainer head="Unit Price" body={data.unitPrice} />
+            <TextContainer head="Unit Quantity" body={data.unitQuantity} />
           </div>
 
           <div className={style.rightBox}>
