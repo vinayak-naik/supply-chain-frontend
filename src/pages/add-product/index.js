@@ -126,7 +126,7 @@ const AddProduct = (props) => {
 
                   <div className={style.inputBox}>
                     <FormControl fullWidth>
-                      <InputLabel id="demo-simple-select-label">Select category</InputLabel>
+                      <InputLabel id="demo-simple-select-label">Select Category</InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
@@ -239,7 +239,7 @@ const AddProduct = (props) => {
                   <div className={style.inputBox}>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
-                        Select unitQuantity Type
+                        Select Unit Quantity Type
                       </InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
